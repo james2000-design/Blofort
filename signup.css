@@ -1,0 +1,119 @@
+
+body{
+    background-color: rgb(63, 61, 61);
+}
+.wrapper{
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    /* width: 100%; */
+
+}
+
+.sup{
+    text-align: center;
+    background-image: url(./media/wall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    width: 50%;
+    display: flex;
+    justify-content: center
+    
+}
+
+.img{
+    width: 50%;
+    color: white;
+    text-align: left;
+    margin-top: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container{
+    width: 50%;
+    padding-top: 2rem;
+}
+
+.logo{
+    text-align: center;
+    color: rgb(255, 128, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
+.cap{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+#names1,#names2,#names3,#names4,#names5{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 4px;
+    width: 90%;
+
+}
+.name{
+    border: 2px solid rgb(73, 71, 71);
+    border-radius: 15px;
+    /* width: 100%; */
+}
+
+.inputs{
+    width: 65%;
+    margin-right: 4rem;
+    padding-left: 2rem;
+    /* padding-top:2rem ; */
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.signup{
+    margin-top: 3rem;
+    padding-top: 4px;
+    width: 8rem;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 17px;
+    background-color: rgb(228, 100, 21);
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.last{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.last a{
+    text-decoration: none;
+    color: rgb(239, 93, 8);
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    .inputs{
+        width: 100%;
+        margin: 0%;
+        padding-left: 1rem;
+        padding-right: 10px;
+    }
+
+
+    .img{
+        width: 100%;
+        margin-top: 60%;
+    }
+}
+
+
